@@ -1,0 +1,90 @@
+INDEX.HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viwport" content="width=device-width,initial-scale=1.0">
+  <title>MORANGOS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="pag_2.html" target="_self" rel="next"><button type="button"> 2Â°pagina</button></a>
+  <img src="https://images.squarespace-cdn.com/content/v1/5b51083c3e2d091347d2e6fe/1636991386981-E2M7HWBMOFUYIB5M2EOF/lewis-fagg-CE1yaljvkb0-unsplash.jpg?format=2500w" alt="morango">
+  <h1> Morangos frescos &#127827</h1>
+  <table border="3">
+    <tr>
+      <td>Bandejas</td>
+      <td>Kg</td>
+      <td>PreÃ§o</td>
+    </tr>
+    <tr>
+      <td>1 bandeja</td>
+      <td>250g</td>
+      <td>R$8,00</td>
+    </tr>
+    <tr>
+      <td>4 bandejas</td>
+      <td>1 Kg</td>
+      <td>R$20,00</td>
+    </tr>
+  </table>
+  </body>
+</html>
+
+PAG_2.HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viwport" content="width=device-width,initial-scale=1.0">
+  <title>Sobremesas de morango</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="index.html" target="_self" rel="prev"><button type="button"> 1Â°pagina</button></a>
+  <img src="https://www.bomprincipioalimentos.com.br/imgs/textos/que-lindo_1.jpg" alt="sobremesa">
+  <h1> Sobremesas feitas com moramgos frescos &#127856</h1>
+    <table border="3">
+    <tr>
+      <td>Bolo</td>
+      <td>Pequeno</td>
+      <td>R$8,00</td>
+    </tr>
+    <tr>
+      <td>Bolo</td>
+      <td>Grande</td>
+      <td>R$10,00</td>
+    </tr>
+    <tr>
+      <td>Muse</td>
+      <td>Copo 500ml</td>
+      <td>R$15,00</td>
+    </tr>
+  </table>
+</body>
+</html>
+
+
+STYLE.CSS
+body{
+  background-color: darkred;
+}
+button{
+  font-size: 20px;
+  background-color: green;
+  color: red;
+}
+img{
+  block-size: 250px;
+  border-radius: 50px;
+}
+h1{
+  font-family: cursive;
+  font-size: 30px;
+}
+table{
+  font-size: 30px;
+  background-color: lightgreen;
+  color: lightcoral;
+}
