@@ -1,0 +1,21 @@
+body{
+  background-color: darkred;
+}
+button{
+  font-size: 20px;
+  background-color: green;
+  color: red;
+}
+img{
+  block-size: 250px;
+  border-radius: 50px;
+}
+h1{
+  font-family: cursive;
+  font-size: 30px;
+}
+table{
+  font-size: 30px;
+  background-color: lightgreen;
+  color: lightcoral;
+}
